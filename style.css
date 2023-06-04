@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+ 
+body{
+    min-height: fit-content;
+    height: 130vh;
+    background-color: #9090fa; /*linear-gradient(to top, #ccccd8 50%, #9090fa 90%) repeat/* tirei no-repeat e coloquei repeat    deixei uma só cor*/
+}
+ 
+.container {
+    margin: 50px auto
+}
+ 
+.panel-heading {
+    text-align: center;
+    margin-bottom: 10px
+}
+ 
+#forgot {
+    min-width: 100px;
+    margin-left: auto;
+    text-decoration: none
+}
+ 
+a:hover {
+    text-decoration: none
+}
+ 
+.form-inline label {
+    padding-left: 10px;
+    margin: 0;
+    cursor: pointer
+}
+ 
+.btn.btn-primary {
+    margin-top: 20px;
+    border-radius: 15px
+}
+ 
+.panel {
+    min-height: 380px;
+    box-shadow: 20px 20px 80px rgb(218, 218, 218);
+    border-radius: 12px
+}
+ 
+.input-field {
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    color: #4343ff
+}
+ 
+input[type='text'],
+input[type='password'] {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%
+}
+ 
+.fa-eye-slash.btn {
+    border: none;
+    outline: none;
+    box-shadow: none
+}
+ 
+img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 70%;
+   /* position: relative*/
+}
+ 
+a[target='_blank'] {
+    /*position: relative;*/
+    transition: all 0.1s ease-in-out
+}
+ 
+.bordert {
+    border-top: 1px solid #aaa;
+    /*position: relative*/
+}
+ 
+.bordert:after {
+    content: "or connect with";
+    /*position: absolute;*/
+    top: -13px;
+    left: 33%;
+    background-color: #fff;
+    padding: 0px 8px
+}
+ 
+@media(max-width: 360px) {
+    #forgot {
+        margin-left: 0;
+        padding-top: 10px
+    }
+ 
+    body {
+        height: 100%
+    }
+ 
+    .container {
+        margin: 30px 0
+    }
+ 
+    .bordert:after {
+        left: 25%
+    }
+}
+/*Daqui pra baixo eu adicionei*/
+a{
+    color: black;
+}
+
+/*Para congelar meu na parte superior*/
+.container-fluid{
+    position: fixed;
+    top: 0;
+    left: 0;
+     background-color: #7b8ea1;
+     z-index: 9999;/*para o menu sobrepor os elementos da pagina*/
+}
+
+nav{
+    margin-bottom: 100px; 
+}
+
+.logo{
+    margin-right: 100px;
+    
+    color: rgb(57, 220, 20);
+    font-size: 20px;
+    text-align: center}
+
+    h5{
+        font-family: cursive;
+        margin-left: 25px;
+    }
+
+    .navbar-toggler{
+        border: solid rgb(182, 205, 209) ;
+        padding-left: 0px;padding-right: 25px;
+        margin-right: 20px;
+    }
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
